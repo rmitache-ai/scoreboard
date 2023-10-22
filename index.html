@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Scoreboard</title>
+	<link rel="stylesheet" type="text/css" href="style.css" /> 
+	<script src="index.js"></script>
+	<link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+</head>
+<body>
+	<div class="main-div">
+		<div class="team">
+			<div class="home">
+				<h1>HOME</h1>
+				<div class="count-div">
+					<p id="count-el">0</p>
+				</div>
+				<button onclick="plus1home()">+1</button>
+				<button onclick="plus2home()">+2</button>
+				<button onclick="plus3home()">+3</button>
+			</div>
+			<div class="away">
+				<h1>AWAY</h1>
+				<div class="count-div">
+					<p id="count-away-el">0</p>
+				</div>
+				<button onclick="plus1away()">+1</button>
+				<button onclick="plus2away()">+2</button>
+				<button onclick="plus3away()">+3</button>
+			</div>
+		</div>
+		<button onclick="reset()">RESET</button>
+	</div>
+</body>
+</html>

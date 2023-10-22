@@ -1,0 +1,108 @@
+#reset-this-root {
+    all: unset;
+}
+
+body
+{
+	background-color: #1b244a;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+h1
+{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 35.89px;
+	text-align: center;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 21px;
+}
+
+button
+{
+	font-family: 'Cursed Timer ULiL', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27.81px;
+	text-align: center;
+	border-radius: 5px;
+	border-width: 2px;
+	border-style: solid;
+	background-color: transparent;
+	border-color: #9AABD8;
+	color: #9AABD8;
+	margin-top: 26px;
+	margin-right: 9px;
+}
+
+button:hover
+{
+	opacity: 60%;
+}
+
+button:active
+{
+	border-color: white;
+	color: white;
+}
+
+#count-el, #count-away-el
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	font-family: 'Cursed Timer ULiL', sans-serif;
+	font-weight: 400;
+	font-size:  90px;
+	line-height: 126.67px;
+	text-align: center;
+	color: #F94F6D;
+}
+
+.count-div
+{
+	border-radius: 5px;
+	padding: 0%;
+	background-color: black;
+	max-width: 155px;
+	max-height: 120px;
+}
+
+.team
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.home
+{
+	padding-right: 138px;
+}
+
+.home, .away
+{
+	flex-direction: row;
+}
+
+.main-div
+{
+	max-width: 575px;
+	max-height: 385px;
+}
